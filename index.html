@@ -5,11 +5,61 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="First web assignment">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="./images/site.webmanifest">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-
+  <picture>
+    <source media="(min-width: 769px)" srcset="images/hero-1920.jpg">
+    <source media="(min-width: 381px)" srcset="images/hero-768.jpg">
+    <source media="(max-width: 380px)" srcset="images/hero-380.jpg">
+    <img src="images/hero-768.jpg" alt="ocean painting">
+  </picture>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a>Home</a>
+        </li>
+        <li><a href="about/">About</a></li>
+        <li><a href="contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Caroline's Art</h1>
+  <main>
+    <article>
+      <h2>Article 1</h2>
+      <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Exercitationem consequatur vel
+        voluptates consequuntur
+        quidem dolor itaque obcaecati? Modi consectetur illum perspiciatis sunt cumque, deleniti itaque praesentium eius
+        distinctio adipisci quas.</p>
+      <figure>
+        <img src="images/blue-wave-900.jpg" alt="blue textured wave" width="900" height="900">
+        <figcaption>Painting by Caroline</figcaption>
+      </figure>
+    </article>
+    <article>
+      <h2>Article 2</h2>
+      <p><em>Lorem ipsum</em> dolor sit, amet consectetur adipisicing elit. Expedita perspiciatis optio odio deleniti?
+        Vitae ex
+        adipisci, sunt fugiat eos rem fuga natus praesentium temporibus pariatur neque recusandae repellat corrupti
+        quas.</p>
+    </article>
+  </main>
+  <aside>
+    <p>This is an aside</p>
+  </aside>
+  <footer>
+    <p>This is the footer</p>
+  </footer>
 </body>
 
 </html>
